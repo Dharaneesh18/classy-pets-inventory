@@ -1,0 +1,31 @@
+/* src/ProductList.css */
+.product-list {
+  padding: 20px;
+}
+
+.product-table {
+  background: #f0faff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #0077cc;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #e7f3ff;
+}

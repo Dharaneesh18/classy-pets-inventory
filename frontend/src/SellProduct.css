@@ -1,0 +1,36 @@
+.sell-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 1rem;
+  background: #f0f8ff;
+  border-radius: 8px;
+}
+
+.sell-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.sell-form input,
+.sell-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sell-form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sell-form button:hover {
+  background: #0097a7;
+}

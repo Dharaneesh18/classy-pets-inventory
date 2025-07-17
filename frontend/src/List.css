@@ -1,0 +1,23 @@
+.list-container {
+  padding: 2rem;
+  background: #e0f7fa;
+  border-radius: 15px;
+  margin: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #b2ebf2;
+  text-align: center;
+}
+
+th {
+  background-color: #00bcd4;
+  color: white;
+}

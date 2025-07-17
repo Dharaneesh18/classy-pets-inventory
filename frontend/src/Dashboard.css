@@ -1,0 +1,30 @@
+.dashboard-container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dashboard-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  background: #dff6ff;
+  border: 1px solid #00a8ff;
+  padding: 15px;
+  border-radius: 12px;
+  flex: 1 1 45%;
+  font-size: 16px;
+}
+
+.low-stock-alert {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff3cd;
+  border: 1px solid #ffecb5;
+  border-radius: 8px;
+  color: #856404;
+  font-weight: bold;
+}

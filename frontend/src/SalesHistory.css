@@ -1,0 +1,31 @@
+/* src/SalesHistory.css */
+.sales-history {
+  padding: 20px;
+}
+
+.sales-box {
+  background: #fff7e6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffb700;
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #fff2cc;
+}
