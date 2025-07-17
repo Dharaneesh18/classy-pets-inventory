@@ -13,7 +13,7 @@ const AddProduct = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/products", {
+      await axios.post("http://localhost:5000/api/products", {
         name,
         category,
         stock: parseInt(stock),
